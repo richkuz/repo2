@@ -1,7 +1,7 @@
 name: Issue Triage
 on:
   issues:
-    types: [labeled]
+    types: [labeled, unlabeled]
     
 jobs:
   assign_to_project:
